@@ -23,7 +23,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Changed the three selectors below from .header div to .header nav to correspond with the change I made in html file from div to nav elements. This was so the website didnt change */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -195,3 +195,4 @@ p {
     text-align: center;
 }
 
+/* Deleted .footer h2 selector as it is no longer required due to me changing the html to display a H4 instead of a h2 so that the headings follow a sequential order.*/ 
