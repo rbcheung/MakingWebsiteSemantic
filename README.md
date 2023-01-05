@@ -8,7 +8,7 @@
 
 ## Image of website
 
-![Alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/ryancheung/challenge-1/Assets/01-html-css-git-challenge-demo.png?version%3D1672935625504)
+![01-html-css-git-challenge-demo](https://user-images.githubusercontent.com/111018380/210833900-dae52608-7904-4216-9000-7c71b6c1dd1b.png)
 
 ## Link to Deployed Website
 
