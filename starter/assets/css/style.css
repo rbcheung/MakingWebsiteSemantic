@@ -86,52 +86,36 @@ p {
     background-color: #2589bd;
 }
 
-/* Benefit lead section */
-.benefit-lead {
+/* Made three new benefit classes as alot of the css classes were doing the same thing. */
+
+.benefitAll {
     margin-bottom: 32px;
     color: #ffffff;
 }
-.benefit-lead h3 {
-    margin-bottom: 10px;
+
+.benefitAll h3 {
+     margin-bottom: 10px;
     text-align: center;
 }
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* Benefit brand section */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-.benefit-brand img {
+
+.benefitAll img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Benefit cost section */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
+/* Made new class for search-engine-optimization, online-repuation-management and social-media-marketing images. */
+.allImg {
+    max-height: 200px;
+}
+/* stored css for h2s in one place */
+.allArticle h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* Search engine optimization section */
-.search-engine-optimization {
+/* Made new class for search-engine-optimization, online-repuation-management and social-media-marketing article elements */
+.allArticle {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -139,46 +123,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-.search-engine-optimization img {
-    max-height: 200px;
-}
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* Online reputation management section */
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-.online-reputation-management img {
-    max-height: 200px;
-}
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* social media marketing section */
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-.social-media-marketing img {
-    max-height: 200px;
-}
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 /* Footer section */
 .footer {
     padding: 30px;
@@ -187,4 +132,4 @@ p {
     text-align: center;
 }
 
-/* Deleted .footer h2 selector as it is no longer required due to me changing the html to display a H4 instead of a h2 so that the headings follow a sequential order.*/ 
+
