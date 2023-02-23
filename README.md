@@ -1,4 +1,4 @@
-# <Making-a-Website-more-semantic.>
+# Making-a-Website-more-semantic
 
 ## Description
 
